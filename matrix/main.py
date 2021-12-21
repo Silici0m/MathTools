@@ -78,14 +78,6 @@ B = Matrix(6, 4)
 A.linear_matrix()
 B.linear_matrix()
 '''
-B.edit(1, 1, 2)
-B.edit(1, 2, -2)
-# B.edit(2, 1, -1)
-# B.edit(2, 2, 0)
-
-A.display("A = ")
-B.display("B = ")
-
 print("__________________")
 C = A.multiply(B)
 print("__________________")
